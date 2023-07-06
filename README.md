@@ -44,7 +44,7 @@
 
 #### Csvfiles and Figures:
 
-##### Csvfiles in complementary region:
+##### Csvfiles in complementary region:('csv_python_code')
 
 - ***csv1_mhc.ipynb:***  For TableS1 in complementary region
 - ***csv2_part0,ipynb, csv2_part1.py, csv2_part2.ipynb:*** For TableS2 in complementary region
@@ -52,7 +52,7 @@
 
 - ***form_main_body.ipynb:*** For the form in the main body
 
-##### Figures in complementary region:
+##### Figures in complementary region:（‘figs_python_code’）
 
 - ***fig1_except_mhc.ipynb":*** For the pic1 about complementary non-mhc region
 - ***fig1_mhc.ipynb:*** For the pic1 about complementary mhc region
