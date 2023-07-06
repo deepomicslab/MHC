@@ -74,7 +74,7 @@ Code in this folder is used to generate the form that can get #rs value for the 
 
   
 
-### 'Negative Similar region' folder:
+### 'Negative-assortative mating region' folder:
 
 #### 1.'getP' folder:
 
@@ -101,17 +101,17 @@ Code in this folder is used to generate the form that can get #rs value for the 
 
 
 
-### 'negative_similar_region_RS' folder:
+### 'Negative_assortative_mating_region_RS' folder:
 
 Code in this folder is used to generate the form that can get #rs value for the negative similar region position.
 
 #### 1. 'mhc_rs' folder:
 
-- ***'rs_mhc_part.py':***  get rs form for negative similar mhc region
+- ***'rs_mhc_part.py':***  get rs form for negative-assortative mating mhc region
 
 #### 2. 'split_rs' folder:
 
-- ***'getrs.py'***: get rs form for negative similar non-mhc region
+- ***'getrs.py'***: get rs form for negative-assortative mating non-mhc region
 
 ### 'Positive similar region' folder:
 
@@ -123,14 +123,14 @@ Code in this folder is used to generate the form that can get #rs value for the 
 ### 2. 'csvfiles' folder:
 
 - ***'csv1.ipynb'***: TableS1 for Positive similar regions
-- ***'csv2.ipynb', 'csv2_second_part.py'***: TableS2 for for Positive similar regions
-- ***'csv3.py'***: TableS3 for Positive similar regions
+- ***'csv2.ipynb', 'csv2_second_part.py'***: TableS2 for for Positive-assortative mating regions
+- ***'csv3.py'***: TableS3 for Positive-assortative mating regions
 
 
 
-### 'positive_similar_region_rs' folder:
+### 'Positive_assortative_mating_region_rs' folder:
 
-Code in this folder is used to generate the form that can get #rs value for the positive similar region position.
+Code in this folder is used to generate the form that can get #rs value for the positive assortative mating region position.
 
 - ***'rs.py'***: get rs form for positive similar region position 
 
@@ -150,8 +150,8 @@ Code in this folder is used to generate the form that can get #rs value for the 
 
 #### 4. 'others'  folder:
 
-- ***'discom_vs_pos.ipynb'***:  Find the repeat region between dissortative complementary region and positive similar region
-- ***'neg_vs_pos.ipynb'***: Find the repeat region between negative similar region and positive similar region
+- ***'discom_vs_pos.ipynb'***:  Find the repeat region between dissortative mating complementary region and positive assortative mating region
+- ***'neg_vs_pos.ipynb'***: Find the repeat region between negative assortative mating region and positive assortative mating region
 
 
 
