@@ -87,7 +87,7 @@ This folder is about 1) finding regions, 2) figures python code 3) csvfiles pyth
 
 #### 2. ‘getRegion’ folder:
 
-- ***'get_region_for_all.ipynb':***get negative assortative mating regions for 'all'
+- ***'get_region_for_all.ipynb':*** get negative assortative mating regions for 'all'
 - ***'get_region_for_race.ipynb':*** get negative assortative mating regions for each race
 
 #### 3. 'figures' folder:
@@ -144,7 +144,7 @@ Code in this folder is used to generate the form that can get #rs value for the 
 
 #### 1.'dis_vs_neg_repeat_region' folder: 
 
-- ***'dis_vs_neg.ipynb':***Find the repeat regions for mhc and non-mhc between disassortative mating regions and negative-assortative mating regions.
+- ***'dis_vs_neg.ipynb':*** Find the repeat regions for mhc and non-mhc between disassortative mating regions and negative-assortative mating regions.
 
 - ***'mhc.ipynb'***: Find the genes in the above repeat region in the mhc part.
 - ***'non-mhc.ipynb'***: Find the genes in the above repeat region in the non-mhc part.
