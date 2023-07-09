@@ -1,8 +1,8 @@
 #   					MHC
 
-### Complementary Region:
+### Disassortative mating Regions:
 
-#### For All: ('All_find_region' folder)
+#### For All: ('disassortative_1_all_find_region' folder)
 
 ##### The following steps are used to get complementary regions for 'All'.
 
@@ -26,9 +26,9 @@
 
 - ***get_region_third_part.ipynb***:
 
-  Obtain complementary regions according to threshold.
+  Obtain disassortative mating regions according to threshold.
 
-#### For Race :
+#### For Race :('disassortative_2_race_find_region' folder)
 
 ##### The following steps are used to get complementary regions for different races.
 
@@ -40,41 +40,45 @@
 
 - ***get_position_race.ipynb***
 
-  Get complementary region for differenct race, whose method is the same as 'All'.
+  Get disassortative mating regions for different race, whose method is the same as 'All'.
 
-#### Csvfiles and Figures:
+#### Csvfiles and Figures:(disassortative mating regions)
 
-##### Csvfiles in complementary region:('csv_python_code')
+##### Figures:（‘disassortative_3_figs_python_code’ folder）
 
-- ***csv1_mhc.ipynb:***  For TableS1 in complementary region
-- ***csv2_part0,ipynb, csv2_part1.py, csv2_part2.ipynb:*** For TableS2 in complementary region
-- ***csv3_part0.py, csv3_part1.ipynb, csv3_part2.ipynb***: For TableS3 in complmentary region
+- ***fig1_except_mhc.ipynb":*** For the pic1 about disassortative mating non-mhc regions
+- ***fig1_mhc.ipynb:*** For the pic1 about disassortative mating mhc regions
+- ***fig2.ipynb:*** For the pic2 in disassortative mating regions
+- ***fig3.ipynb:*** For the pic3 in disassortative mating regions
+- ***fig4.ipynb:*** For the pic4 in disassortative mating regions
+
+##### Csvfiles :('disassortative_4_csv_python_code' folder)
+
+- ***csv1_mhc.ipynb:***  For TableS1 in disassortative mating regions
+- ***csv2_part0,ipynb, csv2_part1.py, csv2_part2.ipynb:*** For TableS2 in disassortative mating regions
+- ***csv3_part0.py, csv3_part1.ipynb, csv3_part2.ipynb***: For TableS3 in disassortative mating regions
 
 - ***form_main_body.ipynb:*** For the form in the main body
 
-##### Figures in complementary region:（‘figs_python_code’）
 
-- ***fig1_except_mhc.ipynb":*** For the pic1 about complementary non-mhc region
-- ***fig1_mhc.ipynb:*** For the pic1 about complementary mhc region
-- ***fig2.ipynb:*** For the pic2 in complementary region
-- ***fig3.ipynb:*** For the pic3 in complementary region
-- ***fig4.ipynb:*** For the pic4 in complementary region
 
-### 'complementary_Region_Rs_form' folder:
+### 'disassortative_5_Rs_form' folder:
 
-Code in this folder is used to generate the form that can get #rs value for the dissorsative complementary region position.
+Code in this folder is used to generate the form that can get #rs value for the disassortative mating regions position.
 
 #### 1.'mhc_rs' folder:
 
-- ***'getrs_mhc_com.py'***: get rs form for dissorsative complementary mhc region position
+- ***'getrs_mhc_com.py'***: get rs form for disassortative mating mhc regions position
 
 #### 2.'split_rs' folder:
 
-- ***'getrs.py'***: get rs form for dissorsative complementary non-mhc region position 
+- ***'getrs.py'***: get rs form for disassortative mating non-mhc regions position 
 
   
 
-### 'Negative-assortative mating region' folder:
+### 'negative-assortative_1' folder:
+
+This folder is about 1) finding regions, 2) figures python code 3) csvfiles python code in negative-assortative mating regions.
 
 #### 1.'getP' folder:
 
@@ -83,81 +87,78 @@ Code in this folder is used to generate the form that can get #rs value for the 
 
 #### 2. ‘getRegion’ folder:
 
-- ***'get_region_for_all.ipynb':***get negative similar region for 'all'
-- ***'get_region_for_race.ipynb':*** get negative similar region for each race
+- ***'get_region_for_all.ipynb':***get negative assortative mating regions for 'all'
+- ***'get_region_for_race.ipynb':*** get negative assortative mating regions for each race
 
 #### 3. 'figures' folder:
 
-- ***'pic1_1.ipynb'***: For the pic1 about Negative-assortative mating regions 
-- ***'pic2.ipynb'***: For the pic2 about Negative-assortative mating regions and Average Probability 
-- ***'pic3.ipynb'***: For the pic3 about genes included in Negative-assortative mating regions 
-- ***'pic4.ipynb'***: For the pic4 about comparison between Negative-assortative mating non-MHC regions  and Negative-assortative mating MHC regions
+- ***'pic1_1.ipynb'***: For the pic1 about negative-assortative mating regions 
+- ***'pic2.ipynb'***: For the pic2 about negative-assortative mating regions and Average Probability 
+- ***'pic3.ipynb'***: For the pic3 about genes included in negative-assortative mating regions 
+- ***'pic4.ipynb'***: For the pic4 about comparison between negative-assortative mating non-MHC regions  and negative-assortative mating MHC regions
 
-#### 4.'Csvfiles' folder:
+#### 4.'csvfiles' folder:
 
-- ***'csv1.ipynb'***: TableS1 for Negative-assortative mating regions 
-- ***'csv2_first_part.ipynb', 'csv2_second_part.py'***: TableS2 for Negative-assortative mating regions 
-- ***'csv3.py'***: TableS3 for Negative-assortative mating regions
+- ***'csv1.ipynb'***: TableS1 for negative-assortative mating regions 
+- ***'csv2_first_part.ipynb', 'csv2_second_part.py'***: TableS2 for negative-assortative mating regions 
+- ***'csv3.py'***: TableS3 for negative-assortative mating regions
 
 
 
-### 'Negative_assortative_mating_region_RS' folder:
+### 'negative_assortative_2_RS_form' folder:
 
-Code in this folder is used to generate the form that can get #rs value for the negative similar region position.
+Code in this folder is used to generate the form that can get #rs value for the negative assortative mating regions positions.
 
 #### 1. 'mhc_rs' folder:
 
-- ***'rs_mhc_part.py':***  get rs form for negative-assortative mating mhc region
+- ***'rs_mhc_part.py':***  get rs form for negative-assortative mating mhc regions
 
 #### 2. 'split_rs' folder:
 
-- ***'getrs.py'***: get rs form for negative-assortative mating non-mhc region
+- ***'getrs.py'***: get rs form for negative-assortative mating non-mhc regions
 
-### 'Positive similar region' folder:
+### 'Positive_assortative_1' folder:
+
+This folder is about 1) finding regions, 2) figures python code 3) csvfiles python code in positive-assortative mating regions.
 
 #### 1. 'figures' folder:
 
-- ***'pic1.ipynb'***: pic1 for Positive-assortative mating MHC region 
-- ***'pic1_part2.ipynb'***: pic1 for Positive-assortative mating non-MHC region
+- ***'pic1.ipynb'***: pic1 for Positive-assortative mating MHC regions
+- ***'pic1_part2.ipynb'***: pic1 for Positive-assortative mating non-MHC regions
 
 ### 2. 'csvfiles' folder:
 
-- ***'csv1.ipynb'***: TableS1 for Positive similar regions
+- ***'csv1.ipynb'***: TableS1 for Positive-assortative mating regions
 - ***'csv2.ipynb', 'csv2_second_part.py'***: TableS2 for for Positive-assortative mating regions
 - ***'csv3.py'***: TableS3 for Positive-assortative mating regions
 
 
 
-### 'Positive_assortative_mating_region_rs' folder:
+### 'Positive_assortative_2_Rs_form' folder:
 
-Code in this folder is used to generate the form that can get #rs value for the positive assortative mating region position.
+Code in this folder is used to generate the form that can get #rs value for the positive-assortative mating regions positions.
 
-- ***'rs.py'***: get rs form for positive similar region position 
+- ***'rs.py'***: get rs form for positive-assortative mating regions position 
 
 ### 'TableS4' folder:
 
-#### 1.'repeat_region.ipynb': 
+#### 1.'dis_vs_neg_repeat_region' folder: 
 
-​      Find the repeat region in the mhc part and non-mhc part between 'All' and 'Race'
+- ***'dis_vs_neg.ipynb':***Find the repeat regions for mhc and non-mhc between disassortative mating regions and negative-assortative mating regions.
 
-####2. 'mhc' folder:
+- ***'mhc.ipynb'***: Find the genes in the above repeat region in the mhc part.
+- ***'non-mhc.ipynb'***: Find the genes in the above repeat region in the non-mhc part.
 
-- ***'mhc.ipynb'***: find the genes in the repeat region in the mhc part
+#### 2. 'other_repeat_region' folder:
 
-#### 3. 'split' folder:
-
-- ***'split.ipynb'***: find the genes in the repeat region in the non-mhc part
-
-#### 4. 'others'  folder:
-
-- ***'discom_vs_pos.ipynb'***:  Find the repeat region between dissortative mating complementary region and positive assortative mating region
+- ***'dis_vs_pos.ipynb'***:  Find the repeat region between dissortative mating complementary region and positive assortative mating region
 - ***'neg_vs_pos.ipynb'***: Find the repeat region between negative assortative mating region and positive assortative mating region
 
 
 
  
 
-##### 
+
 
 
 
