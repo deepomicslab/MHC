@@ -4,7 +4,7 @@
 
 #### For All: ('All_find_region' folder)
 
-##### If you want to run the code, please proceed in the following order.
+##### The following steps are used to get complementary regions for 'All'.
 
 - ***get_P_region.ipynb***: This file is used to get the probability from the formula
 
@@ -30,7 +30,7 @@
 
 #### For Race :
 
-##### If you want to run the code, please proceed in the following order.
+##### The following steps are used to get complementary regions for different races.
 
 - ***get_P_race.py***: This file is used to get the probability from the formula
 
