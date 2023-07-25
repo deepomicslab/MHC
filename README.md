@@ -55,8 +55,8 @@
 ##### Csvfiles :('disassortative_4_csv_python_code' folder)
 
 - ***csv1_mhc.ipynb:***  For TableS1 in disassortative mating regions
-- ***csv2_part0,ipynb, csv2_part1.py, csv2_part2.ipynb:*** For TableS2 in disassortative mating regions
-- ***csv3_part0.py, csv3_part1.ipynb, csv3_part2.ipynb***: For TableS3 in disassortative mating regions
+- ***csv2_part0.ipynb, csv2_part1.ipynb:*** For TableS2 in disassortative mating regions
+- ***csv3.ipynb***: For TableS3 in disassortative mating regions
 
 - ***form_main_body.ipynb:*** For the form in the main body
 
@@ -76,46 +76,6 @@ Code in this folder is used to generate the form that can get #rs value for the 
 
   
 
-### 'negative-assortative_1' folder:
-
-This folder is about 1) finding regions, 2) figures python code 3) csvfiles python code in negative-assortative mating regions.
-
-#### 1.'getP' folder:
-
-- ***'All_P.py':***  Get P according to the formula for 'all'.
-- ***'Race_P.py':*** Get P according to the formula for each race.
-
-#### 2. ‘getRegion’ folder:
-
-- ***'get_region_for_all.ipynb':*** get negative assortative mating regions for 'all'
-- ***'get_region_for_race.ipynb':*** get negative assortative mating regions for each race
-
-#### 3. 'figures' folder:
-
-- ***'pic1_1.ipynb'***: For the pic1 about negative-assortative mating regions 
-- ***'pic2.ipynb'***: For the pic2 about negative-assortative mating regions and Average Probability 
-- ***'pic3.ipynb'***: For the pic3 about genes included in negative-assortative mating regions 
-- ***'pic4.ipynb'***: For the pic4 about comparison between negative-assortative mating non-MHC regions  and negative-assortative mating MHC regions
-
-#### 4.'csvfiles' folder:
-
-- ***'csv1.ipynb'***: TableS1 for negative-assortative mating regions 
-- ***'csv2_first_part.ipynb', 'csv2_second_part.py'***: TableS2 for negative-assortative mating regions 
-- ***'csv3.py'***: TableS3 for negative-assortative mating regions
-
-
-
-### 'negative_assortative_2_RS_form' folder:
-
-Code in this folder is used to generate the form that can get #rs value for the negative assortative mating regions positions.
-
-#### 1. 'mhc_rs' folder:
-
-- ***'rs_mhc_part.py':***  get rs form for negative-assortative mating mhc regions
-
-#### 2. 'split_rs' folder:
-
-- ***'getrs.py'***: get rs form for negative-assortative mating non-mhc regions
 
 ### 'Positive_assortative_1' folder:
 
