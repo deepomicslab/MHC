@@ -100,20 +100,6 @@ Code in this folder is used to generate the form that can get #rs value for the 
 
 - ***'rs.py'***: get rs form for positive-assortative mating regions position 
 
-### 'TableS4' folder:
-
-#### 1.'dis_vs_neg_repeat_region' folder: 
-
-- ***'dis_vs_neg.ipynb':*** Find the repeat regions for mhc and non-mhc between disassortative mating regions and negative-assortative mating regions.
-
-- ***'mhc.ipynb'***: Find the genes in the above repeat region in the mhc part.
-- ***'non-mhc.ipynb'***: Find the genes in the above repeat region in the non-mhc part.
-
-#### 2. 'other_repeat_region' folder:
-
-- ***'dis_vs_pos.ipynb'***:  Find the repeat region between dissortative mating complementary region and positive assortative mating region
-- ***'neg_vs_pos.ipynb'***: Find the repeat region between negative assortative mating region and positive assortative mating region
-
 
 
  
