@@ -81,14 +81,14 @@ This folder is about 1) finding regions, 2) figures python code 3) csvfiles pyth
 
 #### 1). 'figures' folder:
 
-- ***'Figure 2.ipynb'***: pic1 for Positive-assortative mating MHC regions
+- ***'Figure 2.ipynb'***: For FIGURE 2 
 
 
 ### 2). 'csvfiles' folder:
 
-- ***'csv1.ipynb'***: TableS1 for Positive-assortative mating regions
-- ***'csv2.ipynb', 'csv2_second_part.py'***: TableS2 for for Positive-assortative mating regions
-- ***'csv3.py'***: TableS3 for Positive-assortative mating regions
+- ***'Table S2.ipynb'***: For Table S2 in supplementary material
+- ***'Table S5_part0.ipynb', 'Table S5_part1.py'***: For Table S5 in supplementary material
+- ***'Table S6.py'***: For Table S6 in supplementary material
 
 
 
