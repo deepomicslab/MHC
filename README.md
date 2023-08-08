@@ -77,14 +77,21 @@ Code in this folder is used to generate the form that can get #rs value for the 
 
 ### 'Positive_assortative_1' folder:
 
-This folder is about 1) finding regions, 2) figures python code 3) csvfiles python code in positive-assortative mating regions.
+This folder is about 1) find regions, 2) figures python code 3) csvfiles python code in positive-assortative mating regions.
+### 1). 'find regions' folder:
 
-### 1). 'figures' folder:
+This folder is used to get positive assortative regions.
+- ***'get_P_all.py'***: Get probability from the formula for all.
+- ***'get_P_race.py'***: Get probability from the formula for each race.
+- ***'get_region_for_all.ipynb'***: Get positive assortative regions for all.
+- ***'get_region_for_race.ipynb'***: Get positive assortative regions for each race.
+- 
+### 2). 'figures' folder:
 
 - ***'Figure 2.ipynb'***: For FIGURE 2 
 
 
-### 2). 'csvfiles' folder:
+### 3). 'csvfiles' folder:
 
 - ***'Table S2.ipynb'***: For Table S2 in supplementary material
 - ***'Table S5_part0.ipynb', 'Table S5_part1.py'***: For Table S5 in supplementary material
