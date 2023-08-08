@@ -46,19 +46,17 @@
 
 ##### Figures:（‘disassortative_3_figs_python_code’ folder）
 
-- ***fig1_except_mhc.ipynb":*** For the pic1 about disassortative mating non-mhc regions
-- ***fig1_mhc.ipynb:*** For the pic1 about disassortative mating mhc regions
-- ***fig2.ipynb:*** For the pic2 in disassortative mating regions
-- ***fig3.ipynb:*** For the pic3 in disassortative mating regions
-- ***fig4.ipynb:*** For the pic4 in disassortative mating regions
+- ***'FIGURE 1_MHC.ipynb':*** For the FIGURE 1 about disassortative mating mhc regions
+- ***'FIGURE 1_NONMHC.ipynb':*** For the FIGURE 1 about disassortative mating non-mhc regions
+- ***'FIGURE 3.ipynb':*** For the FIGURE 3
+- ***'FIGURE 4.ipynb':*** For the FIGURE 4
+- ***'FIGURE 5.ipynb':*** For the FIGURE 5
 
 ##### Csvfiles :('disassortative_4_csv_python_code' folder)
 
-- ***csv1_mhc.ipynb:***  For TableS1 in disassortative mating regions
-- ***csv2_part0.ipynb, csv2_part1.ipynb:*** For TableS2 in disassortative mating regions
-- ***csv3.ipynb***: For TableS3 in disassortative mating regions
-
-- ***form_main_body.ipynb:*** For the form in the main body
+- ***'Table S1.ipynb':***  For Table S1 in supplementary material
+- ***'Table S3_part0.ipynb', 'Table S3_part1.ipynb':*** For TableS3 in supplementary material
+- ***'Table S4.ipynb':*** For TableS4 in supplementary material
 
 
 
@@ -68,11 +66,11 @@ Code in this folder is used to generate the form that can get #rs value for the 
 
 #### 1.'mhc_rs' folder:
 
-- ***'getrs_mhc_com.py'***: get rs form for disassortative mating mhc regions position
+- ***'getrs_mhc_com.py':*** get rs form for disassortative mating mhc regions position
 
 #### 2.'split_rs' folder:
 
-- ***'getrs.py'***: get rs form for disassortative mating non-mhc regions position 
+- ***'getrs.py':*** get rs form for disassortative mating non-mhc regions position 
 
   
 
@@ -81,12 +79,12 @@ Code in this folder is used to generate the form that can get #rs value for the 
 
 This folder is about 1) finding regions, 2) figures python code 3) csvfiles python code in positive-assortative mating regions.
 
-#### 1. 'figures' folder:
+#### 1). 'figures' folder:
 
-- ***'pic1.ipynb'***: pic1 for Positive-assortative mating MHC regions
-- ***'pic1_part2.ipynb'***: pic1 for Positive-assortative mating non-MHC regions
+- ***'Figure 2.ipynb'***: pic1 for Positive-assortative mating MHC regions
 
-### 2. 'csvfiles' folder:
+
+### 2). 'csvfiles' folder:
 
 - ***'csv1.ipynb'***: TableS1 for Positive-assortative mating regions
 - ***'csv2.ipynb', 'csv2_second_part.py'***: TableS2 for for Positive-assortative mating regions
