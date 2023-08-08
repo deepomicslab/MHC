@@ -42,9 +42,9 @@
 
   Get disassortative mating regions for different race, whose method is the same as 'All'.
 
-#### Csvfiles and Figures:(disassortative mating regions)
+### Csvfiles and Figures:(disassortative mating regions)
 
-##### Figures:（‘disassortative_3_figs_python_code’ folder）
+#### Figures:（‘disassortative_3_figs_python_code’ folder）
 
 - ***'FIGURE 1_MHC.ipynb':*** For the FIGURE 1 about disassortative mating mhc regions
 - ***'FIGURE 1_NONMHC.ipynb':*** For the FIGURE 1 about disassortative mating non-mhc regions
@@ -52,7 +52,7 @@
 - ***'FIGURE 4.ipynb':*** For the FIGURE 4
 - ***'FIGURE 5.ipynb':*** For the FIGURE 5
 
-##### Csvfiles :('disassortative_4_csv_python_code' folder)
+#### Csvfiles :('disassortative_4_csv_python_code' folder)
 
 - ***'Table S1.ipynb':***  For Table S1 in supplementary material
 - ***'Table S3_part0.ipynb', 'Table S3_part1.ipynb':*** For TableS3 in supplementary material
@@ -84,7 +84,7 @@ This folder is about 1) finding regions, 2) figures python code 3) csvfiles pyth
 - ***'Figure 2.ipynb'***: For FIGURE 2 
 
 
-### 2). 'csvfiles' folder:
+#### 2). 'csvfiles' folder:
 
 - ***'Table S2.ipynb'***: For Table S2 in supplementary material
 - ***'Table S5_part0.ipynb', 'Table S5_part1.py'***: For Table S5 in supplementary material
@@ -92,7 +92,7 @@ This folder is about 1) finding regions, 2) figures python code 3) csvfiles pyth
 
 
 
-### 'Positive_assortative_2_Rs_form' folder:
+#### 'Positive_assortative_2_Rs_form' folder:
 
 Code in this folder is used to generate the form that can get #rs value for the positive-assortative mating regions positions.
 
