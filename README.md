@@ -106,6 +106,12 @@ Code in this folder is used to generate the form that can get #rs value for the 
 - ***'rs.py'***: get rs form for positive-assortative mating regions position 
 
 
+### '1000_population.tsv':
+This file is about the categories of different race.
+
+### 'prepare_mhc_data.sh':
+This file is used to prepare the data.
+
 
  
 
