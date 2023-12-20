@@ -1,104 +1,123 @@
-#   					MHC
+MHC
 
-### Disassortative mating Regions:
+Assortative Folder:
 
-### For All: ('disassortative_1_all_find_region' folder)
+get_P folder:
 
-##### The following steps are used to get complementary regions for 'All'.
+all folder:
 
-- ***find_region_p1.ipynb***:
-  Obtain disassortative mating regions for 'All' according to threshold.
+- getP3.py:
+  Obtain assortative probability values for non-mhc overall population.
+- getP3_mhc.ipynb:
+  Obtain assortative probability values for mhc overall population.
 
-- ***find_region_p2.ipynb***:
+races folder:
 
-  Obtain disassortative mating regions for different races according to threshold.
+- getP4.py:
+  Obtain assortative probability values for non-mhc distinct population.
+- getP4_mhc.ipynb:
+  Obtain assortative probability values for mhc distinct population.
 
-### For Race :('disassortative_2_race_find_region' folder)
+get_Region folder:
 
-##### The following steps are used to get complementary regions for different races.
+all folder:
 
-- ***get_P_race.py***: This file is used to get the probability from the formula
+- find_region_p3.ipynb:
+  Obtain assortative mating regions for overall population.
 
-  input: vcf files
+races folder:
 
-  output: csv files with probability
+- find_region_p4.ipynb:
+  Obtain assortative mating regions for distinct population.
 
-- ***get_position_race.ipynb***
+get_Rs folder:
 
-  Get disassortative mating regions for different race, whose method is the same as 'All'.
+- RS_MHC.py:
+  Obtain RS values for the positions in MHC assortative mating regions.
 
-### Csvfiles and Figures:(disassortative mating regions)
-
-### Figures:（‘disassortative_3_figs_python_code’ folder）
-
-- ***'FIGURE 1_MHC.ipynb':*** For the FIGURE 1 about disassortative mating mhc regions
-- ***'FIGURE 1_NONMHC.ipynb':*** For the FIGURE 1 about disassortative mating non-mhc regions
-- ***'FIGURE 3.ipynb':*** For the FIGURE 3
-- ***'FIGURE 4.ipynb':*** For the FIGURE 4
-- ***'FIGURE 5.ipynb':*** For the FIGURE 5
-
-### Csvfiles :('disassortative_4_csv_python_code' folder)
-
-- ***'Table S1.ipynb':***  For Table S1 in supplementary material
-- ***'Table S3_part0.ipynb', 'Table S3_part1.ipynb':*** For TableS3 in supplementary material
-- ***'Table S4.ipynb':*** For TableS4 in supplementary material
-
-
-
-### 'disassortative_5_Rs_form' folder:
-
-Code in this folder is used to generate the form that can get #rs value for the disassortative mating regions position.
-
-### 1.'mhc_rs' folder:
-
-- ***'getrs_mhc_com.py':*** get rs form for disassortative mating mhc regions position
-
-### 2.'split_rs' folder:
-
-- ***'getrs.py':*** get rs form for disassortative mating non-mhc regions position 
-
+- RS_NONMHC.ipynb:
+  Obtain RS values for the positions in NON-MHC assortative mating regions.
   
 
+Disassortative Folder:
 
-### 'Positive_assortative_1' folder:
+get_P folder:
 
-This folder is about 1) find regions, 2) figures python code 3) csvfiles python code in positive-assortative mating regions.
-### 1). 'find regions' folder:
+all folder:
 
-This folder is used to get positive assortative regions.
-- ***'get_P_all.py'***: Get probability from the formula for all.
-- ***'get_P_race.py'***: Get probability from the formula for each race.
-- ***'get_region_for_all.ipynb'***: Get positive assortative regions for all.
-- ***'get_region_for_race.ipynb'***: Get positive assortative regions for each race.
-- 
-### 2). 'figures' folder:
+- getP.py:
+  Obtain disassortative probability values for non-mhc overall population.
+- getP_mhc.ipynb:
+  Obtain disassortative probability values for mhc overall population.
 
-- ***'Figure 2.ipynb'***: For FIGURE 2 
+races folder:
 
+- getP2.py:
+  Obtain disassortative probability values for non-mhc distinct population.
+- getP2_mhc.ipynb:
+  Obtain disassortative probability values for mhc distinct population.
 
-### 3). 'csvfiles' folder:
+get_Region folder:
 
-- ***'Table S2.ipynb'***: For Table S2 in supplementary material
-- ***'Table S5_part0.ipynb', 'Table S5_part1.py'***: For Table S5 in supplementary material
-- ***'Table S6.py'***: For Table S6 in supplementary material
+all folder:
 
+- find_region_p1.ipynb:
+  Obtain disassortative mating regions for overall population.
 
+races folder:
 
-### 'Positive_assortative_2_Rs_form' folder:
+- find_region_p2.ipynb:
+  Obtain disassortative mating regions for distinct population.
 
-Code in this folder is used to generate the form that can get #rs value for the positive-assortative mating regions positions.
+get_Rs folder:
 
-- ***'rs.py'***: get rs form for positive-assortative mating regions position 
+- RS_MHC.py:
+  Obtain RS values for the positions in MHC disassortative mating regions.
 
+- RS_NONMHC.ipynb:
+  Obtain RS values for the positions in NON-MHC disassortative mating regions.
 
-### '1000_population.tsv':
-This file is about the categories of different race.
+FIGURES Folder:
 
-### 'prepare_mhc_data.sh':
+- FIGURE 1.ipynb:
+  The code for FIGURE 1
+- FIGURE  2.ipynb:
+  The code for FIGURE 2
+- FIGURE 3.ipynb:
+  The code for FIGURE 3
+- FIGURE 4.ipynb:
+  The code for FIGURE 4
+- FIGURE 6-1.ipynb:
+  The code for FIGURE 6-1
+
+FILES_CSV Folder:
+
+- Table S1.ipynb:
+  The code for Table S1
+- Table S2.ipynb:
+  The code for Table S2
+- Table S3_part0.ipynb & Table S3_part1.ipynb:
+  The code for Table S3
+- Table S4.ipynb:
+  The code for Table S4
+- Table S5_part0.ipynb & Table S5_part1.ipynb:
+  The code for Table S5
+- Table S6.ipynb:
+  The code for Table S6
+- Table S7.ipynb:
+  The code for Table S7
+  
+
+1000_population.tsv:
+
+This file is about the categories of distinct population.
+
+prepare_mhc_data.sh:
+
 This file is used to prepare the data.
 
 
- 
+
 
 
 
